@@ -1,3 +1,5 @@
+
+// get server data
 module.exports = `
     var data = /*[[\${data}]]*/ null;
     var data2 = /*[[\${data2}]]*/ null;

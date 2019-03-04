@@ -17,8 +17,11 @@ public class WebpackDemoApplication {
 
 	@GetMapping("/pageA")
 	String pageA(Model model){
+
+		// start fetching server data for page rendering
 		model.addAttribute("data", "query data from java server");
 		model.addAttribute("data2", "{a:123,c:789}");
+
 		return "pageA";
 	}
 }

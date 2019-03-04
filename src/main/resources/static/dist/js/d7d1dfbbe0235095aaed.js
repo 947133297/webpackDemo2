@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("document.write(\"data：\" + data)\r\ndocument.write(\"<br />data2：\" + data2)\r\ndocument.write(\"<br />data3：\" + data3)\n\n//# sourceURL=webpack:///./pageA/entry.js?");
+eval("\r\n// use server data directly\r\ndocument.write(\"data：\" + data)\r\ndocument.write(\"<br />data2：\" + data2)\r\ndocument.write(\"<br />data3：\" + data3)\n\n//# sourceURL=webpack:///./pageA/entry.js?");
 
 /***/ })
 
